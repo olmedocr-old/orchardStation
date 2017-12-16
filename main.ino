@@ -21,11 +21,11 @@ char user[] = "";
 char pass[] = "";
 
 // Hardware Serial on Mega, Leonardo, Micro
-#define SerialAT Serial1
+//#define SerialAT Serial1
 
 // or Software Serial on Uno, Nano
-//#include <SoftwareSerial.h>
-//SoftwareSerial SerialAT(2, 3); // RX, TX
+#include <SoftwareSerial.h>
+SoftwareSerial SerialAT(2, 3); // RX, TX
 
 TinyGsm modem(SerialAT);
 
