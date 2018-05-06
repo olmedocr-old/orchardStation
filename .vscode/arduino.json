@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328",
+    "port": "/dev/cu.wchusbserial1420",
+    "sketch": "orchardStation.ino"
+}
